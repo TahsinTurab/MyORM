@@ -1,0 +1,48 @@
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.csproj.AssemblyReference.cache
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.AssemblyInfoInputs.cache
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.AssemblyInfo.cs
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.csproj.CoreCompileInputs.cache
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ORM.exe
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ORM.deps.json
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ORM.runtimeconfig.json
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ORM.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ORM.pdb
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ClassLibrary.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ClassLibrary.pdb
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.csproj.CopyComplete
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\refint\ORM.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.pdb
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.genruntimeconfig.cache
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ref\ORM.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ORM.exe
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ORM.deps.json
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ORM.runtimeconfig.json
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ORM.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ORM.pdb
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ClassLibrary.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\bin\Debug\net6.0\ClassLibrary.pdb
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.csproj.AssemblyReference.cache
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.GeneratedMSBuildEditorConfig.editorconfig
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.AssemblyInfoInputs.cache
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.AssemblyInfo.cs
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.csproj.CoreCompileInputs.cache
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.csproj.CopyComplete
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\refint\ORM.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.pdb
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ORM.genruntimeconfig.cache
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ORM\obj\Debug\net6.0\ref\ORM.dll

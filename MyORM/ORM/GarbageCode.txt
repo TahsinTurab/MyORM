@@ -1,0 +1,159 @@
+﻿public static void GetDataFromTable<T>(string id)
+          
+        {
+            //var query = $"select * from {typeof(T).Name}s where ";
+
+            var type = typeof(T);
+            var tempList = new List<Dictionary<string, string>>();
+            var tempDictionary = new Dictionary<string, string>();
+            var tempKeyList = new List<Dictionary<string, string>>();
+            var tempKeyDictionary = new Dictionary<string, string>();
+
+            foreach (var property in type.GetProperties(BindingFlags.Public | BindingFlags.NonPublic |
+                BindingFlags.Instance | BindingFlags.Static))
+            {
+                var propertyType = property.PropertyType;
+                var key = property.Name;
+
+                if (propertyType == typeof(string) ||
+                    propertyType == typeof(Guid) ||
+                    propertyType.IsPrimitive)
+
+                {
+                    //tempDictionary.Add(key, $"{property.GetValue(instance)}");
+
+                    //if (key[key.Length - 2] == 'I' && key[key.Length - 1] == 'd')
+                    //{
+                    //    tempKeyDictionary.Add(key, $"{property.GetValue(instance)}");
+                    //}
+
+
+                }
+
+            } 
+
+        }
+
+        public static void GetDataById(G id)
+        {
+            var tablename = typeof(T).Name;
+            var idName = $"{tablename}Id";
+            var idValue = $"{id}";
+            GetRelationalTableData(typeof(T), idName, idValue);
+        }
+
+        public static void GetRelationalKeySet(Type classType, string idName, string idValue)
+        {
+
+            foreach (var property in classType.GetProperties(BindingFlags.Public | BindingFlags.NonPublic |
+                BindingFlags.Instance | BindingFlags.Static))
+            {
+                var data = new Dictionary<string, string>();
+                data.Add(idName, idValue);
+                var list = new List<Dictionary<string, string>>();
+                list.Add(data);
+                //keySets.Add($"{classType.Name}", list);
+
+                var propertyType = property.PropertyType;
+                var key = property.Name;
+                string newIdName = "";
+                string newIdValue = "";
+
+                if (propertyType.IsGenericType && propertyType.GetGenericTypeDefinition() == typeof(List<>))
+                {
+                    Type itemType = propertyType.GetGenericArguments()[0]; // use this...
+                    var tableName = $"{itemType.Name}";
+                    Console.WriteLine(itemType.Name);
+                    if (tableName[tableName.Length - 1] == 's') tableName += "es";
+                    else tableName += 's';
+                    var query = $"SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME='{tableName}'";
+                    //Console.WriteLine(query);
+                    
+                    var keys = DataUtility.GetKeys(query);
+                    var query1 = "select ";
+                    foreach (var k in keys) query1 += $"{k},";
+                    query1 = query1.Remove(query1.Length - 1);
+                    query1 += $" from {tableName} whre {idName} = {idValue}";
+                    //Console.WriteLine(query1);
+                    var keyvalueset = DataUtility.ExecuteQuery(query1);
+                    foreach(var k in keyvalueset)
+                    {
+                        
+                    }
+
+                    GetRelationalKeySet(itemType, newIdName, newIdValue);
+
+                }
+                else if (propertyType.IsClass && propertyType != typeof(string))
+                {
+                    var tableName = $"{propertyType.Name}";
+                    Console.WriteLine(propertyType.Name);
+                    
+                    if (tableName[tableName.Length - 1] == 's') tableName += "es";
+                    else tableName += 's';
+                    var query = $"SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME='{tableName}'";
+                    //Console.WriteLine(query);
+                    var keys = DataUtility.GetKeys(query);
+                    var query1 = "select ";
+                    foreach (var k in keys) query1 += $"{k},";
+                    query1=query1.Remove(query1.Length - 1);
+                    query1 += $" from {tableName} where {idName} = {idValue}";
+                    //Console.WriteLine(query1);
+                    var keyvalueset = DataUtility.ExecuteQuery(query1);
+                    GetRelationalKeySet(propertyType, newIdName, newIdValue);
+
+                }
+                //if (propertyType == typeof(string) ||
+                //    propertyType == typeof(Guid) ||
+                //    propertyType.IsPrimitive)
+
+                //{
+
+
+
+                //}
+
+                //else if (propertyType.IsClass)
+                //{
+                //    //var data = new Dictionary<string, string>();
+                //    //data.Add(idName, idValue);
+                //    //var list = new List<Dictionary<string, string>>();
+                //    //list.Add(data);
+                //    ////keySets.Add(key, list);
+                //    //var objType = propertyType.GetGenericArguments().FirstOrDefault();
+                //    //GetRelationalKeySet(propertyType, newIdName, newIdValue);
+                //    //Console.WriteLine($"{classType.Name} --> {key}");
+
+
+
+                //}
+
+
+            }
+        }
+
+        public static void GetRelationalTableData(Type classType, string idName, string idValue)
+        {
+            var tableName = $"{classType.Name}";
+            var query = $"select * from {tableName} where {idName}={idValue}";
+            var tableData = DataUtility.ExecuteQuery(query);
+            var tempDataSets = new Dictionary<string, List<Dictionary<string, string>>>();
+            tempDataSets.Add($"{classType.Name}",tableData);
+            relationalData.Add(tempDataSets);
+
+
+
+        }
+        public static void GetAllDatafromTable()
+        {
+            var tableName = typeof(T).Name;
+            
+            if (tableName[tableName.Length - 1] == 's')
+                tableName += "es";
+            else 
+                tableName += 's';
+
+            var query = $"select * from {tableName}";
+            var list = DataUtility.ExecuteQuery(query);
+            dataSets.Add(tableName, list);
+        }

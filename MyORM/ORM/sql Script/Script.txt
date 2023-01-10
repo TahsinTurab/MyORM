@@ -1,0 +1,81 @@
+﻿use Assignment4
+Go
+
+create table Courses(
+	Id uniqueidentifier,
+	Title nvarchar(50),
+	Fees int,
+	Primary Key (Id)
+);
+
+create table Topics(
+	CourseId uniqueidentifier,
+	Id uniqueidentifier,
+	Title nvarchar(50),
+	Description nvarchar(200),
+	Primary Key (Id)
+);
+
+create table Sessions(
+	Id int,
+	TopicId uniqueidentifier,
+	DurationInHour int,
+	LearningObjective nvarchar(200),
+	Primary Key (Id)
+);
+
+create table AdmissionTests(
+	Id uniqueidentifier,
+	CourseId uniqueidentifier,
+	TestFees decimal,
+	StartDateTime datetime,
+	EndDateTime datetime,
+	Primary Key (Id)
+);
+
+create table Instructors(
+	CourseId uniqueidentifier,
+	Id uniqueidentifier,
+	Name nvarchar(50),
+	Email nvarchar(50),
+	Primary Key (Id)
+);
+
+create table Addresses(
+	Id uniqueidentifier,
+	InstructorId uniqueidentifier,
+	AddressType nvarchar(50),
+	Street nvarchar(50),
+	City nvarchar(50),
+	Country nvarchar(50),
+	Primary Key (Id)
+);
+
+create table Phones(
+	Id uniqueidentifier,
+	InstructorId uniqueidentifier,
+	Number nvarchar(50),
+	Extension nvarchar(50),
+	CountryCode nvarchar(50),
+	Primary Key (Id)
+);
+
+alter table Phones
+	add foreign key (InstructorId) references Instructors(Id);
+
+alter table Addresses
+	add foreign key (InstructorId) references Instructors(Id);
+
+alter table Instructors
+	add foreign key (CourseId) references Courses(Id);
+
+alter table AdmissionTests with nocheck
+	add foreign key (CourseId) references Courses(Id);
+
+alter table Topics with nocheck
+	add foreign key (CourseId) references Courses(Id);
+
+alter table Sessions with nocheck
+	add foreign key (TopicId) references Topics(Id);
+
+

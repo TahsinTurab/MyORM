@@ -1,0 +1,24 @@
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\bin\Debug\net6.0\ClassLibrary.deps.json
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\bin\Debug\net6.0\ClassLibrary.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\bin\Debug\net6.0\ClassLibrary.pdb
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfo.cs
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\refint\ClassLibrary.dll
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.pdb
+C:\Users\Tahsin Hasan Turab\Desktop\Training\ASPNET\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ref\ClassLibrary.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\bin\Debug\net6.0\ClassLibrary.deps.json
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\bin\Debug\net6.0\ClassLibrary.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\bin\Debug\net6.0\ClassLibrary.pdb
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.AssemblyReference.cache
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfoInputs.cache
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfo.cs
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.CoreCompileInputs.cache
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\refint\ClassLibrary.dll
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ClassLibrary.pdb
+E:\tahsinturab-aspnet-b7\Assignment4_V2\Assignment4\ClassLibrary\obj\Debug\net6.0\ref\ClassLibrary.dll
